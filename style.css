@@ -1,0 +1,590 @@
+body {
+    font-size: 15pt;
+    width: 380px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.maindiv{
+  margin-left: -7.5px;
+  width: 390px;
+  height:100%;
+  background-color:white;
+  display: block;
+  overflow: hidden;
+}
+.first-chat{
+  border: 1.25px solid #F2F2F2;
+  border-right: none;
+  border-top:none;
+  border-left: none;
+  margin-top:4px;
+}
+.pro-ac{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.chat-name{
+  position: absolute;
+  font-style: 'Source Sans Pro', sans-serif;
+  /*font-weight: bold;*/
+  font-size: 18px;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+ .all-data{
+   position: absolute;
+   margin-top: -28px;
+   margin-left: 96px;
+   font-size: 10pt;
+   font-family: 'Poppins', sans-serif;
+   
+ }
+ .newsnap{
+   color: red;
+ }
+ .time-ago{
+   color: gray;
+ }
+ .ver-line{
+   margin-top: 8px;
+   float: right;
+   
+   height: 35px;
+   width: 0px;
+   border: 2px solid #F2F2F2;
+  border-right: none;
+  border-top:none;
+  border-bottom: none;
+ }
+ .cht-pc{
+   width: 50px;
+   height: 50px;
+   float: right;
+   
+ }
+ .cngCol{
+   position: relative;
+   width: 3%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+ }
+ .mySnapSeen{
+   width: 100%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #prof_div{
+  display: none ;
+  margin-left: -7.5px;
+  margin-top: -7.5px;
+  
+  width: 380px;
+  height:100%;
+  position: relative;
+}
+
+.prof_pic{
+  border: none;
+  width: 390px;
+  height: 250px;
+ 
+  
+  box-shadow:1px 1px 2px lightgrey ;
+  border-radius: 30px 30px 0px 0px;
+  background-image: url("https://i.postimg.cc/6qzrGZzX/prof-pic.jpg") ;
+  background-size: 100%;
+}
+.setting_icon{
+  float: right;
+  margin-right: 0px ;
+  margin-top: 10px;
+  width :7.5% ;
+  
+}
+.prof_share{
+  float: right;
+  margin-right : 20px ;
+  margin-top : 10px ;
+  width: 7.5%;
+}
+.prof_back{
+  width: 10%;
+  margin-left: 10px ;
+  margin-top : 10px;
+}
+.prof_pose{
+  float: right;
+  margin-top : 175px;
+  width: 8% ;
+  margin-right: -100px;
+  
+}
+.bg-sec{
+ background: linear-gradient(90deg,#F2F2F2,white,#FAFAFA,white,#F2F2F2,white,#FAFAFA);
+ position: absolute;
+ margin-top: -20px;
+ border-radius: 15px;
+ border : 2px solid lightgray;
+}
+.prof_info{
+  border: none;
+  width: 390px ;
+  margin-left:0px;
+}
+.prof_qr{
+  width: 16%;
+  margin-top: 20px;
+  border-radius:15px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+.prof_name{
+  
+  float: right;
+  margin-top: 25px;
+  margin-right:168px;
+}
+.prof_id{
+  position: absolute;
+  margin-left : 85px;
+  margin-top: -30px;
+  font-size: 10pt;
+  color : grey;
+  font-weight: bold;
+}
+.snap_score,.snap_rashi{
+  margin-left:10px;
+  border-radius:10px;
+  margin-top: 5px;
+  height: 22px;
+  background: linear-gradient(whitesmoke,white);
+  border : solid 1px lightgray;
+  box-shadow: 1px 1px lightgray;
+}
+.snap_rashi{
+  color: darkblue;
+}
+
+.snap-plus-pre{
+  width: 370px;
+  height: 75px;
+  border: 2px solid gold;
+  margin-left:10px;
+  margin-top: 15px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0px 2px 10px lightgray;
+  
+}
+.snap-plus-pic{
+  display: inline;
+  width: 15%;
+  border-radius: 10px;
+  margin: 10px 10px 10px;
+  box-shadow: 1px 2px 5px lightgray;
+  
+  
+}
+.snap-plus-feat{
+  
+  font-size: 10pt;
+ /* display: inline;*/
+  color:gray;
+  float: right;
+  margin-top:-45px;
+  margin-right: 58px;
+}
+.snap-plus-promo{
+ /* display: inline;*/
+  margin-right: 210px;
+  margin-top: 10px;
+  float: right;
+  font-size:12pt;
+}
+.add-new-frd-head{
+  margin-left: 10px;
+  margin-top: 15px;
+  color: gray;
+}
+.add-new-frd{
+  width:370px;
+  height: 55px;
+  margin-top: -15px;
+  margin-left:10px;
+  box-shadow:0px 2px 15px lightgray;
+  border-radius : 10px;
+  background-color:white;
+}
+.add-new-frd1,.add-new-frd2{
+  width:370px;
+  height:55px;
+  margin-top: 10px;
+  margin-left:10px;
+  box-shadow:0px 2px 15px lightgray;
+  border-radius : 10px;
+  background-color:white;
+}
+
+#maindivc{
+  display: none;
+  border:1px solid gold;
+}
+
+.person-plus{
+  width:22px;
+  height:22px;
+  /*display:inline;*/
+  margin:15px 0px 15px 15px;
+}
+.add-new-frd-head1{
+  float: right;
+  margin-right: 230px;
+  margin-top: 18px;
+  color:gray;
+  font-size:13pt;
+  font-family: 'Roboto', sans-serif;;
+  
+}
+#add-new-frd-head1{
+  margin-right: 240px;
+
+}
+.arrow-frd{
+  position : absolute;
+  margin-left: 305px;
+  margin-top: 15px;
+  width: 22px;
+  height:22px;
+ /* margin:15px 15px 15px 0px;*/
+}
+.arrow-frd1{
+  position : absolute;
+  margin-left: 270px;
+  margin-top: 25px;
+  width: 22px;
+  height:22px;
+ /* margin:15px 15px 15px 0px;*/
+}
+.snapmap-spot{
+  display: flex;
+  width:370px;
+  height:170px;
+  margin-top: -15px;
+  margin-left:10px;
+  box-shadow:0px 2px 15px lightgray;
+  border-radius : 10px;
+  background-color:white;
+}
+.spot-flex{
+  
+  width: 62px;
+  height: 120px;
+  border: 1px solid none;
+  margin-top: 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow:0px 2px 15px lightgray;
+}
+.loco-flex{
+  display: flex;
+  position: absolute;
+}
+.loco-img{
+margin-left:50px;
+width: 20px;
+height: 20px;
+}
+.spot-under{
+  /*position: absolute;*/
+  margin-left : 20px;
+  margin-top : -35px;
+  width: 350px;
+  border :1px solid lightgray ;
+  border-left:1px solid white ;
+  border-right:1px solid white ;
+  border-top:1px solid white ;
+}
+.div-chat-sec{
+  display: block;
+  margin-top : -10px;
+  width: 370px;
+  height: 100%;
+  
+  border: 2px solid orangered;
+ border-bottom: none;
+  border-right:none;
+  border-top:none;
+}
+.div-chat-sec1{
+  display: block;
+  margin-top : -10px;
+  width: 370px;
+  height: 100%;
+  
+  border: 2px solid deepskyblue;
+ border-bottom: none;
+  border-right:none;
+  border-top:none;
+}
+.div-chat-p{
+  font-size:10pt;
+  display: block;
+  /*position:relative;*/
+  margin-top: -15px;
+  margin-left: 5px;
+ /*border: 1px solid black;*/
+}
+.deep-sky-blue{
+  display: block;
+  font-size: 10pt;
+ /* position: absolute ;*/
+  margin-top: -2px;
+  margin-left: 5px;
+  color: red;
+  font-weight: bold;
+  /*border: 1px solid gray;*/
+  
+}
+.deep-sky-blue1{
+  display: block;
+  font-size: 10pt;
+ /* position: absolute ;*/
+  margin-top: -2px;
+  margin-left: 5px;
+  color:deepskyblue ;
+  font-weight: bold;
+  /*border: 1px solid gray;*/
+  
+}
+.div-chat-secf{
+  display: block;
+  margin-top : -10px;
+  width: 370px;
+  height: 100%;
+  
+  border: 2px solid orangered;
+ border-bottom: none;
+  border-right:none;
+  border-top:none;
+}
+.div-chat-pf{
+  font-size:10pt;
+  display: block;
+  /*position:relative;*/
+  margin-top: -15px;
+  margin-left: 5px;
+ /*border: 1px solid black;*/
+}
+.deep-sky-bluef{
+  display: block;
+  font-size: 10pt;
+ /* position: absolute ;*/
+  margin-top: -2px;
+  margin-left: 5px;
+  color: orangered;
+  font-weight: bold;
+  /*border: 1px solid gray;*/
+  
+}
+.scroll-y-bar{
+  overflow: scroll;
+}
+.all-nav-control{
+display: flex;
+ 
+flex-direction:column;
+}
+.nav-bar-control{
+  width: 100px;
+  border:1px solid black;
+ display: flex;
+ justify-content: space-between;
+flex-direction:row;
+margin-left: 10px;
+}
+.nav-bar-control-1{
+ width:100px;
+ margin-right: 15px;
+ border:1px solid black;
+ display: flex;
+ justify-content: space-between;
+flex-direction:row;
+/*position: absolute;*/
+margin-top: -50px;
+float: right;
+}
+.nav-contro{
+  background-color:#FAF9F6;
+ border:1px solid black;
+
+ border-radius: 50%;
+ width: 45px;
+ height: 45px;
+}
+.nav-prof{
+  width: 45px;
+  height: 45px;
+  margin-left: 0px;
+}
+.chat-div-body{
+  display: none;
+  margin-left: -7px;
+  margin-top:-10px;
+  overflow: hidden;
+}
+
+.chat-prof-img{
+  
+  width: 35px;
+  height: 35px;
+  background-color: lightgray;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+.nav-chat-sec{
+  
+  overflow: hidden;
+  position: fixed;
+  margin-top: 10px;
+  border:1px solid white;
+  background-color: white;
+  width: 375px;
+  height: 50px;
+  
+}
+#chat-show-name{
+  margin-left: 50px;
+  margin-top: -33px;
+  font-weight: bold;
+}
+.call-online{
+  border: 1px solid black;
+  width: 40px;
+  height: 28px;
+  margin-top:-55px;
+  margin-left:250px;
+  position: absolute ;
+  border-radius: 25px 0px 0px 25px;
+  background-color: lightgray;
+  display:inline-block;
+}
+.video-call{
+  border: 1px solid black;
+  width: 40px;
+  height: 28px;
+  margin-top:-55px;
+  margin-right: 40px;
+  border-radius: 0px 25px 25px 0px;
+  background-color:lightgray;
+  float: right;
+  
+}
+.goBackChat{
+  width: 25px;
+  height: 25px;
+ float: right;
+ margin-top:-53px;
+ margin-left: 105px;
+/* position: absolute ;*/
+}
+.call-online-img,.video-call-img{
+  margin-left:13px;
+  margin-top:5px;
+}
+
+.full-chat-section{
+  
+  margin-top: 75px;
+}
+.adj-input,.inp-bar-out{
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+} 
+.adj-input{
+ border: 1px solid black;
+ border-radius: 25px;
+ width: 250px;
+ height: 30px;;
+ outline: none;
+}
+.inp-bar-out{
+ width: 375px;
+ height: 35px;
+ border: 1px solid black;
+ background-color: lightgray;
+}
+/*CHAT MSG*/
+.div-chat-sec{
+  display: block;
+  margin-top : -10px;
+  width: 370px;
+  height: 100%;
+  
+  border: 2px solid orangered;
+ border-bottom: none;
+  border-right:none;
+  border-top:none;
+}
+.div-chat-p{
+  font-size:10pt;
+  display: block;
+  /*position:relative;*/
+  margin-top: -15px;
+  margin-left: 5px;
+ /*border: 1px solid black;*/
+}
+.deep-sky-blue{
+  display: block;
+  font-size: 10pt;
+ /* position: absolute ;*/
+  margin-top: -2px;
+  margin-left: 5px;
+  color: orangered;
+  font-weight: bold;
+  /*border: 1px solid gray;*/
+  
+}
+.div-chat-secf{
+  display: block;
+  margin-top : -10px;
+  width: 370px;
+  height: 100%;
+  
+  border: 2px solid orangered;
+ border-bottom: none;
+  border-right:none;
+  border-top:none;
+}
+.div-chat-pf{
+  font-size:10pt;
+  display: block;
+  /*position:relative;*/
+  margin-top: -15px;
+  margin-left: 5px;
+ /*border: 1px solid black;*/
+}
+.deep-sky-bluef{
+  display: block;
+  font-size: 10pt;
+ /* position: absolute ;*/
+  margin-top: -2px;
+  margin-left: 5px;
+  color: orangered;
+  font-weight: bold;
+  /*border: 1px solid gray;*/
+  
+}
+.bhava{
+  float: right;
+}
